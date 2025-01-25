@@ -2,7 +2,7 @@ name: Run Python Script Weekly
 
 on:
   schedule:
-    - cron: "0 0 * * 1" # Runs every Monday at midnight UTC
+    - cron: "0 20 * * 6" # Runs every Monday at midnight UTC
   workflow_dispatch: # Allows manual triggering from the Actions tab
 
 jobs:
