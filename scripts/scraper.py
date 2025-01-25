@@ -43,7 +43,7 @@ try:
 
     path = f'./weekly_data/{name_csv}.csv'
 
-    df_tables.to_csv(path)
+    df_tables.to_csv(path, index=False)
 except Exception as e:
     print(f"An Error Occured : {e}")
     raise
